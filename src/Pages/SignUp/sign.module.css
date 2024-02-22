@@ -1,0 +1,65 @@
+.Login {
+    min-height: 100vh;
+    background-color: #202327;
+}
+
+.outterForm {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 20px 20px;
+    background-color: #292C31;
+    border-radius: 5px;
+}
+
+.form h1 {
+    color: white;
+    padding: 0 0 20px;
+}
+
+.inp {
+    margin-top: 5px;
+}
+
+.inp label {
+    color: white;
+    display: block;
+    padding: 0 0 5px;
+}
+
+.inp input {
+    width: 400px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.forget p {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 0 0;
+}
+
+.btn button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #8E3B39;
+    transition: 0.3s;
+    font-weight: 600;
+    outline: none;
+}
+
+.btn button:hover {
+    background-color: #EF3E41;
+    color: white;
+}
